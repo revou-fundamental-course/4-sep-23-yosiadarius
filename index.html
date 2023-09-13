@@ -4,6 +4,7 @@
         <meta charset="en">
         <meta name="viewport" content="width-device-width, initial-scales">
         <title>Kalkulator Persegi</title>
+        <script src="js/script.js"></script>
         <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
@@ -21,10 +22,10 @@
         <hr />
         <section class="luasInputSection">
             <label for="inputField">Hitung Luas Persegi</label>
-            <input type="number" id="inputField" placeholder="Nilai sisi">
+            <input class="hanyaAngka" type="number" id="inputField" placeholder="Nilai sisi">
         </section>
         <section class="inputButtonSectionHitung">
-            <button>Hitung</button>
+            <button type="button" onClick="hitungLuas()">Hitung</button>
         </section>
         <section class="inputButtonSectionReset">
             <button class="ButtonReset">Reset</button>
