@@ -11,14 +11,6 @@ header {
     justify-content: center;    
 }
 
-label {
-    display: block;
-    margin-bottom: 4px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #1450a3;
-}
-
 input {
     padding: 6px;
     border: 1px solid #337ccf;
@@ -33,7 +25,16 @@ button {
     font-weight: bold;
     cursor: pointer;
     background-color: #1450a3;
-    color: #ffc436;
+    color: #ececec;
+}
+
+button.ButtonReset {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffc93c;
 }
 
 button:hover {
@@ -48,16 +49,74 @@ input:focus{
    border-color: #191D88; 
 }
 
+label {
+    margin-bottom: 4px;
+    display: block;
+}
+
+
+.description1 {
+    flex-direction: column;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    /* background-color: #a7bcb9; */
+   
+}
+
+.gambarPersegi {
+    display: flex;
+    justify-content: center;
+    /* background-color: #e0ebeb; */
+}
+
+.captionPersegi {
+    display: flex;
+    justify-content: center;
+    /* background-color: #e0ebeb; */
+}
+
+.rumusPersegi {
+    display: flex;
+    justify-content: center;
+    /* background-color: #e0ebeb; */
+}
+
+.description2 {
+    flex-direction: column;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    /* background-color: #a7bcb9; */
+   
+}
+
+
 .luasInputSection {
     display: flex;
     flex-direction: column;
     margin-top: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: #e0ebeb;; */
 }
 
-.inputButtonSection {
+.inputButtonSectionHitung {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
 }
+
+.inputButtonSectionReset {
+    display: flex;
+    justify-content: Right;
+    margin-top: 38px;
+}
+
+/*
+    flex-direction: row;
+
+*/
