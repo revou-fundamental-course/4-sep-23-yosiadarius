@@ -1,122 +1,48 @@
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="en">
+        <meta name="viewport" content="width-device-width, initial-scales">
+        <title>Kalkulator Persegi</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+    <!-- Header/Navbar -->
+        <header>
+            <h1>Katik Kalkulator Matematik</h1>
+        </header>
+        <section class="gambarPersegi">
+            <img src="assests/persegi.PNG"  width="60" height="50">
+        </section>
+        <section class="captionPersegi">Persegi</section>
+        <section class="description1">Rumus Luas Persegi yaitu:</section>
+        <section class="rumusPersegi">L = S x S</section>
+        <section class="description2">Di mana: <br />L = Luas <br /> S = Sisi <br /></section>
+        <hr />
+        <section class="luasInputSection">
+            <label for="inputField">Hitung Luas Persegi</label>
+            <input type="number" id="inputField" placeholder="Nilai sisi">
+        </section>
+        <section class="inputButtonSectionHitung">
+            <button>Hitung</button>
+        </section>
+        <section class="inputButtonSectionReset">
+            <button class="ButtonReset">Reset</button>
+        </section>
+    
+        <!-- Content 
+            <main>
+            </main>
+        -->
 
-header {
-    background-color: #191D88;
-    color: whitesmoke;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-}
+        <!-- Footer 
+            <footer>
+                Dibuat oleh Yosia Darius
+                Untuk memenuhi Tugas dari RevoU
+                Rabu, 230912.
+            </footer>
+        -->
+    </body>
+</html>
 
-input {
-    padding: 6px;
-    border: 1px solid #337ccf;
-    border-radius: 4px;
-    outline: none;
-}
-
-button {
-    padding: 10px 16px;
-    border-radius: 4px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #1450a3;
-    color: #ececec;
-}
-
-button.ButtonReset {
-    padding: 10px 16px;
-    border-radius: 4px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #ffc93c;
-}
-
-button:hover {
-    background-color: #191D88;
-}
-
-button:active {
-    transform: translateY(2px);
-}
-
-input:focus{
-   border-color: #191D88; 
-}
-
-label {
-    margin-bottom: 4px;
-    display: block;
-}
-
-
-.description1 {
-    flex-direction: column;
-    display: block;
-    font-size: 12px;
-    font-weight: bold;
-    /* background-color: #a7bcb9; */
-   
-}
-
-.gambarPersegi {
-    display: flex;
-    justify-content: center;
-    /* background-color: #e0ebeb; */
-}
-
-.captionPersegi {
-    display: flex;
-    justify-content: center;
-    /* background-color: #e0ebeb; */
-}
-
-.rumusPersegi {
-    display: flex;
-    justify-content: center;
-    /* background-color: #e0ebeb; */
-}
-
-.description2 {
-    flex-direction: column;
-    display: block;
-    font-size: 12px;
-    font-weight: bold;
-    /* background-color: #a7bcb9; */
-   
-}
-
-
-.luasInputSection {
-    display: flex;
-    flex-direction: column;
-    margin-top: 24px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    /* background-color: #e0ebeb;; */
-}
-
-.inputButtonSectionHitung {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8px;
-}
-
-.inputButtonSectionReset {
-    display: flex;
-    justify-content: Right;
-    margin-top: 38px;
-}
-
-/*
-    flex-direction: row;
-
-*/
+<!-- Trial -->
